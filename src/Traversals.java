@@ -36,6 +36,7 @@ public class Traversals {
       return 0;
     }
     return 1 + countInternalNodes(node.left) + countInternalNodes(node.right);
+    
   }
 
   /**
